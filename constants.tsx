@@ -47,6 +47,7 @@ export const SLIDES: SlideData[] = [
       "Gestão: Edição e exclusão de pontos pelo próprio autor.",
       "Avaliação: Feedback sobre a qualidade do ponto de coleta (Roadmap)."
     ],
+    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=1000&auto=format&fit=crop", // Recycling bins specifically
     extraData: {
       icon: <Search className="w-12 h-12 text-brand-primary" />
     }
@@ -63,6 +64,7 @@ export const SLIDES: SlideData[] = [
       "- Avaliação: Notas e comentários sobre a qualidade do serviço.",
       "- Notificações: Alertas sobre novos pontos na região."
     ],
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1000&auto=format&fit=crop", // Person working on laptop/forms
     extraData: {
       icon: <ClipboardList className="w-12 h-12 text-brand-primary" />
     }
@@ -78,6 +80,7 @@ export const SLIDES: SlideData[] = [
       "Acessibilidade: Diretrizes WCAG 2.1 (Inclusivo).",
       "Segurança: Dados sensíveis criptografados."
     ],
+    image: "https://20746817.fs1.hubspotusercontent-na1.net/hubfs/20746817/Imported_Blog_Media/por-que-ter-servidor-data-center-no-brasil-under.png", // Server room / Datacenter
     extraData: {
       icon: <Users className="w-12 h-12 text-brand-accent" />
     }
