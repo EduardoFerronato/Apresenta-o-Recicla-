@@ -109,6 +109,20 @@ export const SLIDES: SlideData[] = [
   },
   {
     id: 9,
+    type: SlideType.SPLIT,
+    title: "Documentario",
+    content: [
+      "Documentário: Seaspiracy: Mar Vermelho (Netflix)",
+      "Uma investigação corajosa que revela o impacto alarmante da pesca industrial nos oceanos.",
+      "Por que assistir? Para compreender a magnitude do problema ambiental que enfrantamos hoje."
+      ],
+    image: "https://www.pressenza.com/wp-content/uploads/2021/05/seaspiracy.jpg",
+    extraData: {
+      noOverlay: true
+    }
+  },
+  {
+    id: 10,
     type: SlideType.CLOSING,
     title: "Obrigado!",
     subtitle: "Recicla+ conecta pessoas à sustentabilidade.",

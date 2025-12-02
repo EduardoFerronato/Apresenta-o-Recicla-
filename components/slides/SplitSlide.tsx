@@ -3,6 +3,7 @@ import { SlideProps } from '../../types';
 
 export const SplitSlide: React.FC<SlideProps> = ({ data }) => {
   const points = Array.isArray(data.content) ? data.content : [data.content];
+  const showOverlay = !data.extraData?.noOverlay;
 
   return (
     <div className="flex flex-col md:flex-row h-full">
@@ -23,8 +24,10 @@ export const SplitSlide: React.FC<SlideProps> = ({ data }) => {
       </div>
 
       {/* Image Section */}
-      <div className="w-full md:w-1/2 h-full relative">
-        <div className="absolute inset-0 bg-brand-dark opacity-40 z-10"></div>
+      <div className="w-full md:w-1/2 h-full relative bg-black">
+        {showOverlay && (
+          <div className="absolute inset-0 bg-brand-dark opacity-40 z-10"></div>
+        )}
         <img 
           src={data.image} 
           alt={data.title} 
