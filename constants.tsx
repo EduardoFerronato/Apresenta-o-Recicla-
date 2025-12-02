@@ -110,7 +110,7 @@ export const SLIDES: SlideData[] = [
   {
     id: 9,
     type: SlideType.SPLIT,
-    title: "Documentario",
+    title: "Documentário",
     content: [
       "Documentário: Seaspiracy: Mar Vermelho (Netflix)",
       "Uma investigação corajosa que revela o impacto alarmante da pesca industrial nos oceanos.",
