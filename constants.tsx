@@ -1,5 +1,5 @@
 import { SlideData, SlideType } from './types';
-import { Leaf, Map, Users, ShieldCheck, Database, Layout, Search, Edit3, CheckCircle, ClipboardList } from 'lucide-react';
+import { Leaf, Map, Users, ShieldCheck, Database, Layout, Search, Edit3, CheckCircle, ClipboardList, Lightbulb } from 'lucide-react';
 
 export const SLIDES: SlideData[] = [
   {
@@ -16,6 +16,20 @@ export const SLIDES: SlideData[] = [
   {
     id: 2,
     type: SlideType.SPLIT,
+    title: "De onde surgiu essa Ideia?",
+    content: [
+      "Da observação da dificuldade diária da população em descartar itens específicos (pilhas, óleo, eletrônicos).",
+      "Do desejo de usar a tecnologia como agente direto de transformação social e ambiental.",
+      "Da necessidade de centralizar informações dispersas em uma única plataforma confiável e colaborativa."
+    ],
+    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1000&auto=format&fit=crop", // Environmental concept
+    extraData: {
+      icon: <Lightbulb className="w-12 h-12 text-brand-accent" />
+    }
+  },
+  {
+    id: 3,
+    type: SlideType.SPLIT,
     title: "O Problema",
     content: [
       "O crescimento das preocupações ambientais exige um destino correto para resíduos.",
@@ -25,7 +39,7 @@ export const SLIDES: SlideData[] = [
     image: "https://picsum.photos/id/134/800/600" // Nature/Architecture placeholder
   },
   {
-    id: 3,
+    id: 4,
     type: SlideType.SPLIT,
     title: "A Solução: Recicla+",
     content: [
@@ -37,7 +51,7 @@ export const SLIDES: SlideData[] = [
     image: "https://picsum.photos/id/433/800/600" // Tech/Meeting placeholder
   },
   {
-    id: 4,
+    id: 5,
     type: SlideType.BULLETS,
     title: "Funcionalidades Principais",
     content: [
@@ -53,7 +67,7 @@ export const SLIDES: SlideData[] = [
     }
   },
   {
-    id: 5,
+    id: 6,
     type: SlideType.BULLETS,
     title: "Requisitos Funcionais (RF)",
     content: [
@@ -70,7 +84,7 @@ export const SLIDES: SlideData[] = [
     }
   },
   {
-    id: 6,
+    id: 7,
     type: SlideType.BULLETS,
     title: "Requisitos Não Funcionais",
     content: [
@@ -86,14 +100,14 @@ export const SLIDES: SlideData[] = [
     }
   },
   {
-    id: 7,
+    id: 8,
     type: SlideType.FLOWCHART,
     title: "Fluxo do Usuário",
     subtitle: "Visão simplificada do diagrama de atividades",
     content: "Diagrama interativo baseado na página 10 do documento.",
   },
   {
-    id: 8,
+    id: 9,
     type: SlideType.TECH_STACK,
     title: "Tecnologias & Requisitos",
     subtitle: "Stack moderna e robusta para alta disponibilidade",
@@ -108,13 +122,13 @@ export const SLIDES: SlideData[] = [
     }
   },
   {
-    id: 9,
+    id: 10,
     type: SlideType.SPLIT,
-    title: "Documentário",
+    title: "Documentario",
     content: [
       "Documentário: Seaspiracy: Mar Vermelho (Netflix)",
       "Uma investigação corajosa que revela o impacto alarmante da pesca industrial nos oceanos.",
-      "Por que assistir? Para compreender a magnitude do problema ambiental que enfrantamos hoje."
+      "Por que assistir? Para compreender a magnitude do problema ambiental que enfrentamos hoje."
       ],
     image: "https://www.pressenza.com/wp-content/uploads/2021/05/seaspiracy.jpg",
     extraData: {
@@ -122,7 +136,7 @@ export const SLIDES: SlideData[] = [
     }
   },
   {
-    id: 10,
+    id: 11,
     type: SlideType.CLOSING,
     title: "Obrigado!",
     subtitle: "Recicla+ conecta pessoas à sustentabilidade.",
